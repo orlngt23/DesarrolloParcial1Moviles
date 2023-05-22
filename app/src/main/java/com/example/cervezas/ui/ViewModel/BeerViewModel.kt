@@ -8,8 +8,7 @@ import com.example.cervezas.Data.Model.ModelBeer
 import com.example.cervezas.BeerReviewerApplication
 import com.example.cervezas.Repository.Repository
 import androidx.lifecycle.ViewModelProvider.AndroidViewModelFactory.Companion.APPLICATION_KEY
-import com.example.cervezas.Data.Model.brand
-import com.example.cervezas.Data.Model.type
+
 const val BEER_ADD  = "Beer added to database"
 const val WRONG_INFORMATION = "Wrong information"
 const val INACTIVE = ""
@@ -66,8 +65,6 @@ class BeerViewModel(private val repsoitory: Repository): ViewModel() {
                 BeerViewModel(beerRepo)
             }
         }
-
-
     }
 }
 
