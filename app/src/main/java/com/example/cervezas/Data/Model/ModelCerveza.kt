@@ -1,4 +1,6 @@
 package com.example.cervezas.Data.Model
 
-class ModelCerveza {
-}
+class ModelCerveza (
+    val marca: String,
+    val tipo: String,
+        )
